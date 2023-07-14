@@ -12,7 +12,7 @@ struct Person {
 
 int main()
 {
-	struct Person *p[5];
+	struct Person *p[5];	
 	
 
 	for (int i = 0; i < sizeof(p) / sizeof(struct Person *); i++)
